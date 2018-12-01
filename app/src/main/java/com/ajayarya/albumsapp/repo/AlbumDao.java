@@ -20,4 +20,8 @@ public interface AlbumDao {
     @Query("SELECT * from "+Album.TABLE_NAME +" where userId = :userId")
     LiveData<Album> getAlbumLiveData(long userId);
 
+
+    @Query("SELECT * from "+Album.TABLE_NAME)
+    LiveData<Album> getAlbumsLiveData();
+
 }

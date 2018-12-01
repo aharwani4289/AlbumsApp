@@ -5,10 +5,10 @@ import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;
 import android.support.annotation.NonNull;
 
-@Entity(tableName = "Albums")
+@Entity(tableName = "Album")
 public class Album {
 
-    public static final String TABLE_NAME = "Albums";
+    public static final String TABLE_NAME = "Album";
     public static final String COLUMN_USER_ID = "userId";
     public static final String COLUMN_ID = "id";
     public static final String COLUMN_TITLE = "title";
